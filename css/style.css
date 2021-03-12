@@ -3,14 +3,18 @@ box-sizing: border-box;
 } */
 
 body {
-    margin: 0;
+    /* display: flex;
+    justify-content: center; */
+    /* margin: 0; */
     /* font-family: 'Mulish', sans-serif; */
 
 }
 .container {
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
+    text-align: center;
+    width: 100%;
+    height: 100%;
     /* max-width: 1200px; */
     /* align-items: center; */
 }
@@ -20,7 +24,6 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-
 }
 
 .header_inner {
